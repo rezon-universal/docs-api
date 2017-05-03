@@ -17,7 +17,7 @@
 | token | Токен доступа | \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* |
 | t | Тип ответа | xml / json |
 | lang | Язык ответа | en / ru / ua |
-| ip | IP посетителя сайта |  |
+| ip | IP посетителя сайта |   |
 
 {% method %}
 ##Структура ответа
@@ -40,7 +40,7 @@
 ```
 
 {% sample lang="json" %}
-Here is how to print a message to `stdout` using Go.
+
 
 ```json
 {
@@ -55,6 +55,9 @@ Here is how to print a message to `stdout` using Go.
 ```
 
 {% common %}
+
+{% endmethod %}
+
 Описание полей ответа
 
 | Название параметра | Описание | Дополнительная информация|
@@ -76,4 +79,4 @@ Here is how to print a message to `stdout` using Go.
 
 
 
-{% endmethod %}
+
