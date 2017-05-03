@@ -4,10 +4,15 @@
         "theme-api": {
             "languages": [
                 {
-                    "lang": "js",
-                    "name": "JavaScript",
+                    "lang": "xml",
+                    "name": "XML",
                     "default": true
+                },
+                {
+                    "lang": "json",
+                    "name": "JSON"
                 }
+
             ]
         }
     },
