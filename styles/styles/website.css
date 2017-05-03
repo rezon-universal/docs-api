@@ -1,0 +1,17 @@
+.book-summary:before 
+{
+    content: ' ';
+    display: block;
+    margin: 15px;
+    background: url(https://bo.galileo.com.ua/Content/images/RezOn_Universal_horizont.png) no-repeat;
+    height: 63px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.gitbook-link,
+.custom-link
+{
+    display: none !important;
+}
+
