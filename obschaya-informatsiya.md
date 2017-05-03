@@ -66,7 +66,7 @@
 | Status | Статус в текстовом виде | |
 | Body/RequestID | Уникальный UID запроса | |
 | Body/Data | Основные данные | |
-| Body/TotalCount | Количество данных | |
+| Body/TotalCount | Количество данных | ** ** |
 
 
 
