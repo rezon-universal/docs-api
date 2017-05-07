@@ -1,7 +1,9 @@
 ###Получение списка спецпредложений
+{% method %}
+
 | **Метод** |
 | --- |
-| /specialoffers/list\_old |
+| /specialoffers/list_old |
 
 Параметров запроса нет.
 
@@ -10,6 +12,117 @@
 [https://domain.galileo.com.ua/api/specialoffers/list\_old?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;t=json](https://domain.galileo.com.ua/api/specialoffers/list_old?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;t=json)
 
 Ответ содержит массив спецпредложений.
+{% sample lang="xml" %}
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <StatusCode>200</StatusCode>
+   <Status>OK</Status>
+   <Data xsi:type="BodyWrapper">
+      <RequestID>63984235-8c4c-4c75-80af-cf831b2a481d</RequestID>
+      <Data xsi:type="ArrayOfProposal">
+         <Proposal>
+            <NNID>2091</NNID>
+            <UnicId>876d25e8-ff77-4538-8ec0-c4f929a7a350</UnicId>
+            <PCC>7J8I</PCC>
+            <TicketPrice xsi:nil="true" />
+            <ServiceFee>0.00</ServiceFee>
+            <DisplFinalPrice>215.65</DisplFinalPrice>
+            <Currency>USD</Currency>
+            <ValidSince>2002-05-24T00:00:00</ValidSince>
+            <ValidTill>2017-05-24T00:00:00</ValidTill>
+            <DepartureSince>2017-03-10T00:00:00</DepartureSince>
+            <DepartureTill>2017-05-24T00:00:00</DepartureTill>
+            <ReturnSince>2017-03-10T00:00:00</ReturnSince>
+            <ReturnTill>2017-05-24T00:00:00</ReturnTill>
+            <RouteType>RT</RouteType>
+            <NumLegsThere>1</NumLegsThere>
+            <NumLegsBack>1</NumLegsBack>
+            <PlatingCarrier>UA</PlatingCarrier>
+            <PlatingCarrierLang>Юнайтед Эйрлайнз [UA]</PlatingCarrierLang>
+            <StartPt>MCO</StartPt>
+            <StartPtLang>Международный</StartPtLang>
+            <EndPt>SFO·</EndPt>
+            <EndPtLang>Сан-Франциско</EndPtLang>
+            <MinStay>0</MinStay>
+            <MaxStay>365</MaxStay>
+            <MinDayPriorDeparture>14</MinDayPriorDeparture>
+            <MaxDayPriorDeparture>365</MaxDayPriorDeparture>
+            <CountryArr>US</CountryArr>
+            <CountryLangArr>США</CountryLangArr>
+            <CityArr>SFO</CityArr>
+            <CityLangArr>Сан-Франциско</CityLangArr>
+            <CountryDep>US</CountryDep>
+            <CountryLangDep>США</CountryLangDep>
+            <CityDep>ORL</CityDep>
+            <CityLangDep>Орландо</CityLangDep>
+            <LinkToOffer>http://domain.galileo.com.ua/ru/SpecialOffers/Offer/876d25e8-ff77-4538-8ec0-c4f929a7a350</LinkToOffer>
+            <Image />
+         </Proposal>
+      </Data>
+      <TotalCount>1</TotalCount>
+   </Data>
+</Response>
+```
+
+{% sample lang="json" %}
+
+```json
+{
+   "Data": {
+      "Data": [
+         {
+            "CityArr": "SFO",
+            "CityDep": "ORL",
+            "CityLangArr": "Сан-Франциско",
+            "CityLangDep": "Орландо",
+            "CountryArr": "US",
+            "CountryDep": "US",
+            "CountryLangArr": "США",
+            "CountryLangDep": "США",
+            "Currency": "USD",
+            "DepartureSince": "/Date(1489096800000+0200)/",
+            "DepartureTill": "/Date(1495573200000+0300)/",
+            "DisplFinalPrice": 215.65,
+            "EndPt": "SFO·",
+            "EndPtLang": "Сан-Франциско ",
+            "Image": "",
+            "LinkToOffer": "http://domain.galileo.com.ua/ru/SpecialOffers/Offer/876d25e8-ff77-4538-8ec0-c4f929a7a350",
+            "MaxDayPriorDeparture": 365,
+            "MaxStay": "365",
+            "MinDayPriorDeparture": 14,
+            "MinStay": "0",
+            "NNID": 2091,
+            "NumLegsBack": 1,
+            "NumLegsThere": 1,
+            "PCC": "7J8I",
+            "PlatingCarrier": "UA",
+            "PlatingCarrierLang": "Юнайтед Эйрлайнз [UA]",
+            "ReturnSince": "/Date(1489096800000+0200)/",
+            "ReturnTill": "/Date(1495573200000+0300)/",
+            "RouteType": "RT",
+            "ServiceFee": 0,
+            "StartPt": "MCO",
+            "StartPtLang": "Международный",
+            "StayRule": null,
+            "TicketPrice": null,
+            "UnicId": "876d25e8-ff77-4538-8ec0-c4f929a7a350",
+            "ValidSince": "/Date(1022187600000+0300)/",
+            "ValidTill": "/Date(1495573200000+0300)/"
+         }
+      ],
+      "RequestID": "638a1f21-c718-4448-b7d7-a528005db0f8",
+      "TotalCount": 1
+   },
+   "Error": null,
+   "Status": "OK",
+   "StatusCode": 200
+}
+```
+{% common %}
+
+{% endmethod %}
 
 Структура спецпредложения:
 
