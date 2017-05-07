@@ -32,6 +32,8 @@ MULTY:
 
 ### Получение списка направлений
 
+{% method %}
+
 | **Метод** |
 | --- |
 | /air/momondo |
@@ -44,19 +46,66 @@ MULTY:
 
 Ответ содержит пары городов/аэропортов, настроенные агентом в БекОфисе.
 
-{% method %}
+
 
 {% sample lang="xml" %}
 
 ```xml
-
+<?xml version="1.0" encoding="UTF-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <StatusCode>200</StatusCode>
+   <Status>OK</Status>
+   <Data xsi:type="ArrayOfAirDirectionPair">
+      <AirDirectionPair>
+         <StartPt>IEV</StartPt>
+         <EndPt>TLV</EndPt>
+      </AirDirectionPair>
+      <AirDirectionPair>
+         <StartPt>IEV</StartPt>
+         <EndPt>NYC</EndPt>
+      </AirDirectionPair>
+      <AirDirectionPair>
+         <StartPt>IEV</StartPt>
+         <EndPt>BCN</EndPt>
+      </AirDirectionPair>
+      <AirDirectionPair>
+         <StartPt>IEV</StartPt>
+         <EndPt>LON</EndPt>
+      </AirDirectionPair>
+   </Data>
+</Response>
 ```
 
 {% sample lang="json" %}
 
 ```json
-
+{
+   "StatusCode": "200",
+   "Status": "OK",
+   "Data": {
+      "@type": "ArrayOfAirDirectionPair",
+      "AirDirectionPair": [
+         {
+            "StartPt": "IEV",
+            "EndPt": "TLV"
+         },
+         {
+            "StartPt": "IEV",
+            "EndPt": "NYC"
+         },
+         {
+            "StartPt": "IEV",
+            "EndPt": "BCN"
+         },
+         {
+            "StartPt": "IEV",
+            "EndPt": "LON"
+         }
+      ]
+   }
+}
 ```
 {% common %}
 
 {% endmethod %}
+
