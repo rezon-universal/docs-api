@@ -2,7 +2,7 @@
 
 | **Метод** |
 | --- |
-| /railway/order\_issue |
+| /railway/order_issue |
 
 Пример запроса:
 

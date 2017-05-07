@@ -76,6 +76,7 @@
 {% common %}
 
 {% endmethod %}
+
 ##### Структура InsuranceStatisticViewModel
 
 | **Параметр** | **Описание** |
