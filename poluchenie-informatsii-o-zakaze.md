@@ -4,7 +4,7 @@
 
 Пример запроса:
 
-https://domain.galileo.com.ua/api/railway/order\_details?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;t=json&amp;hash=9dc57ce91751a336f316cc58d844bedf
+https://domain.galileo.com.ua/api/railway/order_details?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;t=json&amp;hash=9dc57ce91751a336f316cc58d844bedf
 
 | **Параметры запроса** | **Описание** |
 | --- | --- |
