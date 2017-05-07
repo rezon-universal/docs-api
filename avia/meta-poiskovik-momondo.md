@@ -6,13 +6,13 @@
 
 Пример запроса:
 
-RT: [http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=MOW&destination=BKK&depDate=2016-12-12&retDate=2017-02-01&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=MOW&destination=BKK&depDate=2016-12-12&retDate=2017-02-01&Class=ECO&adults=2&children=1&Infants=1)
+RT: [http://domain.galileo.com.ua/api/air/momondo?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&origin=MOW&destination=BKK&depDate=2016-12-12&retDate=2017-02-01&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=MOW&destination=BKK&depDate=2016-12-12&retDate=2017-02-01&Class=ECO&adults=2&children=1&Infants=1)
 
 OW:  
-[http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=IEV&destination=TLV&depDate=2016-12-12&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=IEV&destination=TLV&depDate=2016-12-12&Class=ECO&adults=2&children=1&Infants=1)
+[http://domain.galileo.com.ua/api/air/momondo?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&origin=IEV&destination=TLV&depDate=2016-12-12&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=IEV&destination=TLV&depDate=2016-12-12&Class=ECO&adults=2&children=1&Infants=1)
 
 MULTY:  
-[http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin1=MOW&destination1=BKK&depDate1=2016-12-12&origin2=BKK&destination2=MUC&depDate2=2016-12-16&origin3=FRA&destination3=MOW&depDate3=2016-12-18&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin1=MOW&destination1=BKK&depDate1=2016-12-12&origin2=BKK&destination2=MUC&depDate2=2016-12-16&origin3=FRA&destination3=MOW&depDate3=2016-12-18&Class=ECO&adults=2&children=1&Infants=1)
+[http://domain.galileo.com.ua/api/air/momondo?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&origin1=MOW&destination1=BKK&depDate1=2016-12-12&origin2=BKK&destination2=MUC&depDate2=2016-12-16&origin3=FRA&destination3=MOW&depDate3=2016-12-18&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin1=MOW&destination1=BKK&depDate1=2016-12-12&origin2=BKK&destination2=MUC&depDate2=2016-12-16&origin3=FRA&destination3=MOW&depDate3=2016-12-18&Class=ECO&adults=2&children=1&Infants=1)
 
 | **Параметры запроса** | **Описание** |
 | --- | --- |
@@ -30,8 +30,7 @@ MULTY:
 | infants | Count of infants |
 | Class | Cabin class _\[ECO/BIZ/FIR\]_ |
 
-
-###Получение списка направлений
+### Получение списка направлений
 
 | **Метод** |
 | --- |
@@ -41,4 +40,23 @@ MULTY:
 
 Пример запроса:
 
-http://domain.galileo.com.ua/api/air/directions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa
+[http://domain.galileo.com.ua/api/air/directions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa](http://domain.galileo.com.ua/api/air/directions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa)
+
+Ответ содержит пары городов/аэропортов, настроенные агентом в БекОфисе.
+
+{% method %}
+
+{% sample lang="xml" %}
+
+```xml
+
+```
+
+{% sample lang="json" %}
+
+```json
+
+```
+{% common %}
+
+{% endmethod %}
