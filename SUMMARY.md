@@ -2,8 +2,7 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
-* [Общая информация](obschaya-informatsiya.md)
+* [Общая информация](README.md)
 
 ## Методы
 
@@ -15,4 +14,10 @@
   * [Выгрузка оформленных документов](vigruzka-oformlennih-dokumentov.md)
   * [Получение информации о заказе](poluchenie-informatsii-o-zakaze.md)
   * [Выписка заказа](vipiska-zakaza.md)
+* [Авиа](avia.md)
+  * [Выгрузка бронирований](avia/vigruzka-bronirovanii.md)
+  * [Спецпредложения](avia/spetspredlozheniya.md)
+  * [Мета поисковик Momondo](avia/meta-poiskovik-momondo.md)
+* [Страхование](strahovanie.md)
+  * [Выгрузка страховых полисов](strahovanie/vigruzka-strahovih-polisov.md)
 
