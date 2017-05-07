@@ -1,3 +1,5 @@
+{% method %}
+
 | **Метод** |
 | --- |
 | /railway/order\_issue |
@@ -41,8 +43,7 @@ Signature: ddbcc1c2541b8e865d877ef65027047d4f420147d111372d8cc5fd141e983a3c
 
 [https://domain.galileo.com.ua/api/railway/order\_issue?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;hash=b67bc16afd5881ff103eec7dd897ef45&amp;email=dima@test.ru&amp;signature=ddbcc1c2541b8e865d877ef65027047d4f420147d111372d8cc5fd141e983a3c](https://domain.galileo.com.ua/api/railway/order_issue?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;hash=b67bc16afd5881ff103eec7dd897ef45&amp;email=dima@test.ru&amp;signature=ddbcc1c2541b8e865d877ef65027047d4f420147d111372d8cc5fd141e983a3c)
 
-{% method %}
-**Ответ:**
+
 
 {% sample lang="xml" %}
 
