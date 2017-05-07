@@ -17,7 +17,6 @@
 | --- | --- |
 | InsuranceStatisticViewModel | Массив созданных полисов |
 
-{% method %}
 
 {% sample lang="xml" %}
 
