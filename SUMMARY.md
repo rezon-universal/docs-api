@@ -20,4 +20,6 @@
   * [Выписка заказа](vipiska-zakaza.md)
 * [Страхование](strahovanie.md)
   * [Выгрузка страховых полисов](strahovanie/vigruzka-strahovih-polisov.md)
+* [Банковские транзакции ](autentifikatsiya-polzovatelei-c-vneshnih-resursov/bankovskie-tranzaktsii.md)
+  * [Выгрузка транзакций](autentifikatsiya-polzovatelei-c-vneshnih-resursov/bankovskie-tranzaktsii/vigruzka-tranzaktsii.md)
 
