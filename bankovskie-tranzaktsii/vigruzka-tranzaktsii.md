@@ -8,7 +8,8 @@
 
     Пример запроса:
 
-    [https://domain.galileo.com.ua/api//banks/bankstransactions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;t=json&amp;dateFrom=2015-01-01T00:00:00&amp;dateTo=2015-06-01T00:00:00](https://domain.galileo.com.ua/api//banks/bankstransactions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;t=json&amp;dateFrom=2015-01-01T00:00:00&amp;dateTo=2015-06-01T00:00:00)
+    [https://domain.galileo.com.ua/api/banks/bankstransactions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;t=json&amp;dateFrom=2015-01-01T00:00:00&amp;dateTo=2015-06-01T00:00:00]
+    (https://domain.galileo.com.ua/api/banks/bankstransactions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&amp;t=json&amp;dateFrom=2015-01-01T00:00:00&amp;dateTo=2015-06-01T00:00:00)
 
     | **Параметры запроса** | **Описание** |
     | --- | --- |
