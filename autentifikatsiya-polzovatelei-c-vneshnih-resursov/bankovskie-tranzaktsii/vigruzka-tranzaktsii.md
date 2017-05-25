@@ -2,11 +2,6 @@
 {% method %}
 ```
 
-| **Метод** |
-| --- |
-| /banks/bankstransactions |
-
-    {% method %}
 
     | **Метод** |
     | --- |
