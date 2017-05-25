@@ -73,7 +73,7 @@
 
 {% endmethod %}
 
-##### Структура BanksTransaction
+##### Структура BankTransaction
 
 | **Параметр** | **Описание** |
 | --- | --- |
