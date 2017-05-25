@@ -49,9 +49,9 @@
 
     ```json
     {
-    "Data": [
-    {
-    "amount": "27474,00",
+        "Data": [
+            {
+                "amount": "27474,00",
     "avia_order_id": "A27648",
     "bank": "PrivatBank",
     "comission": "0,00",
