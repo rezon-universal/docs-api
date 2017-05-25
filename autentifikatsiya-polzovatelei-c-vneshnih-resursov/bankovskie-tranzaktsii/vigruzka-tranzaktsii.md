@@ -4,7 +4,7 @@
 
 | **Метод** |
 | --- |
-| /banks/getbankstransactions |
+| /banks/bankstransactions |
 
     {% method %}
 
