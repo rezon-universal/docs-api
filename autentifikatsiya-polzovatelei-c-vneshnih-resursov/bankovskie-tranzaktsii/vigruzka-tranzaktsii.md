@@ -25,23 +25,23 @@
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <StatusCode>200</StatusCode>
-    <Status>OK</Status>
-    <Data xsi:type="ArrayOfBankTransaction">
-    <BankTransaction>
-    <transaction_id>276118_1525311</transaction_id>
-    <bank>PrivatBank</bank>
-    <date>21/02/2015 17:25</date>
-    <company>290</company>
-    <company_name>Agency name</company_name>
-    <avia_order_id>A27624</avia_order_id>
-    <comission>0,00</comission>
-    <amount>27474,00</amount>
-    <currency>UAH</currency>
-    <response_description>2</response_description>
-    <description>Авиабилет бронь #A27601</description>
-    </BankTransaction>
-    </Data>
+        <StatusCode>200</StatusCode>
+        <Status>OK</Status>
+        <Data xsi:type="ArrayOfBankTransaction">
+            <BankTransaction>
+                <transaction_id>276118_1525311</transaction_id>
+                <bank>PrivatBank</bank>
+                <date>21/02/2015 17:25</date>
+                <company>290</company>
+                <company_name>Agency name</company_name>
+                <avia_order_id>A27624</avia_order_id>
+                <comission>0,00</comission>
+                <amount>27474,00</amount>
+                <currency>UAH</currency>
+                <response_description>2</response_description>
+                <description>Авиабилет бронь #A27601</description>
+            </BankTransaction>
+        </Data>
     </Response>
     ```
 
