@@ -89,9 +89,9 @@
     | bank | Название банка |
     | date | Дата создания транзакции |
     | company | ID агенства |
-    | company\_name | Имя агентсва |
-    | train\_order\_id | ID жд заказа |
-    | avia_\order\_id| ID авиа заказа |
+    | company\_name | Название агентсва |
+    | train\_order\_id | ID ЖД заказа |
+    | avia_\order\_id| ID Авиа заказа |
     | comission | Комиссия  |
     | amount | Стоимость |
     | currency | Валюта |
