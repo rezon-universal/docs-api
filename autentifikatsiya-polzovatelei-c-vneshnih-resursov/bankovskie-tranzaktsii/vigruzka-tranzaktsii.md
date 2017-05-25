@@ -2,10 +2,9 @@
 {% method %}
 ```
 
-
-    | **Метод** |
-    | --- |
-    | /banks/bankstransactions |
+| **Метод** |
+| --- |
+| /banks/bankstransactions |
 
     Пример запроса:
 
