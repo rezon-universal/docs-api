@@ -52,23 +52,23 @@
         "Data": [
             {
                 "amount": "27474,00",
-    "avia_order_id": "A27648",
-    "bank": "PrivatBank",
-    "comission": "0,00",
-    "company": 2,
-    "company_name": "Agency name",
-    "currency": "UAH",
-    "date": "21/02/2015 17:25",
-    "description": "Авиабилет бронь #A27601",
-    "reason_description": null,
-    "response_description": "2",
-    "train_order_id": null,
-    "transaction_id": "276118_1525311"
-    }
-    ],
-    "Error": null,
-    "Status": "OK",
-    "StatusCode": 200
+                "avia_order_id": "A27648",
+                "bank": "PrivatBank",
+                "comission": "0,00",
+                "company": 2,
+                "company_name": "Agency name",
+                "currency": "UAH",
+                "date": "21/02/2015 17:25",
+                "description": "Авиабилет бронь #A27601",
+                "reason_description": null,
+                "response_description": "2",
+                "train_order_id": null,
+                "transaction_id": "276118_1525311"
+            }
+        ],
+        "Error": null,
+        "Status": "OK",
+        "StatusCode": 200
     }
     ```
     {% common %}
