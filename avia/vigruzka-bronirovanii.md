@@ -74,6 +74,7 @@
          <discount>0.00</discount>
          <total>3990.00</total>
          <currency>UAH</currency>
+         <refer>momondo</refer>
       </Booking>
    </Data>
 </Response>
@@ -102,6 +103,7 @@
          "plating_carrier": "TK",
          "plating_carrier_lang": "Турецкие авиалинии [TK]",
          "recloc": "CZ8TPY",
+         "refer" : "momondo",
          "route_type": "OW",
          "segments": [
             {
@@ -172,7 +174,7 @@
 | discount | Скидка |
 | total | Общая стоимость |
 | currency | Валюта |
-| order\_refer | Источник бронирования
+| refer | Источник бронирования
 
 
 
