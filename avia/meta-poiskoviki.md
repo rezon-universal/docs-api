@@ -4,22 +4,23 @@
 
 | **Метод** |
 | --- |
-| /air/momondo |
+| /air/metasearch |
 
 Пример запроса:
 
-RT: [http://domain.galileo.com.ua/api/air/momondo?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&origin=MOW&destination=BKK&depDate=2016-12-12&retDate=2017-02-01&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=MOW&destination=BKK&depDate=2016-12-12&retDate=2017-02-01&Class=ECO&adults=2&children=1&Infants=1)
+RT: [http://domain.galileo.com.ua/api/air/metasearch?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&refer =Momondo&origin=MOW&destination=BKK&depDate=2016-12-12&retDate=2017-02-01&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=MOW&destination=BKK&depDate=2016-12-12&retDate=2017-02-01&Class=ECO&adults=2&children=1&Infants=1)
 
 OW:  
-[http://domain.galileo.com.ua/api/air/momondo?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&origin=IEV&destination=TLV&depDate=2016-12-12&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=IEV&destination=TLV&depDate=2016-12-12&Class=ECO&adults=2&children=1&Infants=1)
+[http://domain.galileo.com.ua/api/air/metasearch?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&refer =Momondo&origin=IEV&destination=TLV&depDate=2016-12-12&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin=IEV&destination=TLV&depDate=2016-12-12&Class=ECO&adults=2&children=1&Infants=1)
 
 MULTY:  
-[http://domain.galileo.com.ua/api/air/momondo?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&origin1=MOW&destination1=BKK&depDate1=2016-12-12&origin2=BKK&destination2=MUC&depDate2=2016-12-16&origin3=FRA&destination3=MOW&depDate3=2016-12-18&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin1=MOW&destination1=BKK&depDate1=2016-12-12&origin2=BKK&destination2=MUC&depDate2=2016-12-16&origin3=FRA&destination3=MOW&depDate3=2016-12-18&Class=ECO&adults=2&children=1&Infants=1)
+[http://domain.galileo.com.ua/api/air/metasearch?key=aaaa&token=aaaabbbbccccddddeeeeffffddddaaaa&refer =Momondo&origin1=MOW&destination1=BKK&depDate1=2016-12-12&origin2=BKK&destination2=MUC&depDate2=2016-12-16&origin3=FRA&destination3=MOW&depDate3=2016-12-18&Class=ECO&adults=2&children=1&Infants=1](http://domain.galileo.com.ua/api/air/momondo?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&origin1=MOW&destination1=BKK&depDate1=2016-12-12&origin2=BKK&destination2=MUC&depDate2=2016-12-16&origin3=FRA&destination3=MOW&depDate3=2016-12-18&Class=ECO&adults=2&children=1&Infants=1)
 
 | **Параметры запроса** | **Описание** |
 | --- | --- |
 | key | Static API key |
 | token | Static API token |
+| refer | Referral _[Momondo/TripMyDream]_ |
 | origin | Departure airport for OW/RT |
 | destination | Arrival airport for OW/RT |
 | depDate | Departure date for OW/ first leg of RT |
@@ -315,15 +316,20 @@ MULTY:
 
 | **Метод** |
 | --- |
-| /air/momondo |
+| /air/directions |
 
-Параметров запроса нет.
+Параметр запрос
 
-Пример запроса:
+| **Параметры запроса** | **Описание** |
+| --- | --- |
+| key | Static API key |
+| token | Static API token |
+| refer | Referral _[Momondo/TripMyDream]_ |
 
-[http://domain.galileo.com.ua/api/air/directions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa](http://domain.galileo.com.ua/api/air/directions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa)
 
-Ответ содержит пары городов/аэропортов, настроенные агентом в БекОфисе.
+[http://domain.galileo.com.ua/api/air/directions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&refer=Momondo](http://domain.galileo.com.ua/api/air/directions?key=aaaa&amp;token=aaaabbbbccccddddeeeeffffddddaaaa&refer=Momondo)
+
+Ответ содержит пары городов/аэропортов/стран, настроенные агентом в БекОфисе.
 
 
 
@@ -350,6 +356,10 @@ MULTY:
       <AirDirectionPair>
          <StartPt>IEV</StartPt>
          <EndPt>LON</EndPt>
+      </AirDirectionPair>
+      <AirDirectionPair>
+         <StartPt>!UA</StartPt>
+         <EndPt>!US</EndPt>
       </AirDirectionPair>
    </Data>
 </Response>
@@ -379,6 +389,10 @@ MULTY:
          {
             "StartPt": "IEV",
             "EndPt": "LON"
+         },
+         {
+            "StartPt": "!UA",
+            "EndPt": "!US"
          }
       ]
    }

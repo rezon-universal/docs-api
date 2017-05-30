@@ -13,7 +13,7 @@
 * [Авиа](avia.md)
   * [Выгрузка бронирований](avia/vigruzka-bronirovanii.md)
   * [Спецпредложения](avia/spetspredlozheniya.md)
-  * [Мета поисковик Momondo](avia/meta-poiskovik-momondo.md)
+  * [Мета поисковики](avia/meta-poiskoviki.md)
 * [ЖД](zhd.md)
   * [Выгрузка оформленных документов](vigruzka-oformlennih-dokumentov.md)
   * [Получение информации о заказе](poluchenie-informatsii-o-zakaze.md)
