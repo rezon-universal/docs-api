@@ -20,6 +20,6 @@
   * [Выписка заказа](vipiska-zakaza.md)
 * [Страхование](strahovanie.md)
   * [Выгрузка страховых полисов](strahovanie/vigruzka-strahovih-polisov.md)
-* [Банковские транзакции](bankovskie-tranzaktsii.md)
+* [Платежные шлюзы](bankovskie-tranzaktsii.md)
   * [Выгрузка транзакций](bankovskie-tranzaktsii/vigruzka-tranzaktsii.md)
 
