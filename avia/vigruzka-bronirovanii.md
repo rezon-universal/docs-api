@@ -34,6 +34,7 @@
          <buyer_name>ALLA</buyer_name>
          <buyer_surname>IGNATENKO</buyer_surname>
          <buyer_phone>380970000583</buyer_phone>
+         <ga_user_id>176013697</ga_user_id>
          <status>CANCELED</status>
          <route_type>OW</route_type>
          <plating_carrier>TK</plating_carrier>
@@ -90,6 +91,7 @@
          "buyer_name": "ALLA",
          "buyer_phone": "380970000583",
          "buyer_surname": "IGNATENKO",
+         "ga_user_id": 176013697,
          "comp_id": 12,
          "comp_name": "Demo",
          "created": "/Date(1453457286696+0200)/",
@@ -161,6 +163,7 @@
 | buyer\_name | Имя покупателя |
 | buyer\_surname | Фамилия покупателя |
 | buyer\_phone | Телефон покупателя |
+| ga_user_id | Google Analytics User Id |
 | status | Статус бронирования: _ACTIVE, CANCELED, ISSUED, PENDING, REJECTED, VOID, ERROR_ |
 | route\_type | Тип маршрутa: _OW, RT, MULTY_ |
 | plating\_carrier | Код валидирующей авиакомпании |

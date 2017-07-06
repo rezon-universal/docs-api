@@ -16,6 +16,7 @@ $(document).on('RezOn.RefreshCurrency', function(e, object) {
 | :--- | :--- |
 | RezOn.Engine.LogIn | Отправка формы входа в личный кабинет |
 | RezOn.Engine.Registered | Отправка формы регистрации пользователя |
+| RezOn.Engine.GaUserIdIdentified | Установлен уникальный User Id для Google Analytics |
 | RezOn.Avia.SearchFormSended | После успешной отправки формы поиска авиабилетов |
 | RezOn.Avia.BookingSuccess | Успешное создание авиа-бронирования |
 | RezOn.Avia.BookingFail | Возникла ошибка при создании авиа-бронирования |
