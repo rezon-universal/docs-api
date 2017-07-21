@@ -28,28 +28,27 @@ $(document).on('RezOn.RefreshCurrency', function(e, object) {
 | RezOn.Trains.AfterSearch | После отправки ЖД формы поиска |
 | RezOn.Trains.AddedPassenger | После добавления нового пассажира в форму |
 | RezOn.Trains.OrderLoaded | После подгрузки содержимого корзины |
-
-
+| RezOn.Trains.PaymentSuccess | Успешная оплата ЖД билета |
 
 Пример JavaScript кода для передачи данных достижения целей в GA:
 
 ```javascript
 $(document).on('RezOn.Avia.SearchFormSended', function(e, object) {
-	console && console.log && console.log('avia search triggered')
-	ga('send', 'event', 'avia', 'search', 'event', 1);
+    console && console.log && console.log('avia search triggered')
+    ga('send', 'event', 'avia', 'search', 'event', 1);
 });
 $(document).on('RezOn.Avia.BookingSuccess', function(e, object) {
-	console && console.log && console.log('avia booked triggered')
-	ga('send', 'event', 'avia', 'booked', 'event', 1);
-	
-	var segmentsCount = parseInt($("[data-js='booked-segments-count']").val() || "0");
-	for(var i = 0; i < segmentsCount; i++){
-		ga('send', 'event', 'avia', 'bookedsegment', 'event', 1);
-	}
+    console && console.log && console.log('avia booked triggered')
+    ga('send', 'event', 'avia', 'booked', 'event', 1);
+
+    var segmentsCount = parseInt($("[data-js='booked-segments-count']").val() || "0");
+    for(var i = 0; i < segmentsCount; i++){
+        ga('send', 'event', 'avia', 'bookedsegment', 'event', 1);
+    }
 });
 $(document).on('RezOn.Avia.PaymentSuccess', function(e, object) {
-	console && console.log && console.log('avia payed triggered')
-	ga('send', 'event', 'avia', 'payed', 'event', 1)
+    console && console.log && console.log('avia payed triggered')
+    ga('send', 'event', 'avia', 'payed', 'event', 1)
 });
 ```
 
