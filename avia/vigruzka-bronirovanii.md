@@ -35,6 +35,16 @@
          <buyer_surname>IGNATENKO</buyer_surname>
          <buyer_phone>380970000583</buyer_phone>
          <ga_user_id>176013697</ga_user_id>
+         <custom_data>
+            <item>
+               <key>marker</key>
+               <value>596f131be831c</value>
+            </item>
+            <item>
+               <key>tduid</key>
+               <value>ABAD43925</value>
+            </item>
+         </custom_data>
          <status>CANCELED</status>
          <route_type>OW</route_type>
          <plating_carrier>TK</plating_carrier>
@@ -96,6 +106,16 @@
          "comp_name": "Demo",
          "created": "/Date(1453457286696+0200)/",
          "currency": "UAH",
+         "custom_data": [
+            {
+               "key": "marker",
+               "value": "596f131be831c"
+            },
+            {
+               "key": "tduid",
+               "value": "ABAD43925"
+            }
+         ],
          "discount": 0,
          "local_fare_total": 3980,
          "mainagency_service_fee": 0,
@@ -164,6 +184,7 @@
 | buyer\_surname | Фамилия покупателя |
 | buyer\_phone | Телефон покупателя |
 | ga_user_id | Google Analytics User Id |
+| custom_data | Дополнительные данные, хранимые с заказом |
 | status | Статус бронирования: _ACTIVE, CANCELED, ISSUED, PENDING, REJECTED, VOID, ERROR_ |
 | route\_type | Тип маршрутa: _OW, RT, MULTY_ |
 | plating\_carrier | Код валидирующей авиакомпании |
