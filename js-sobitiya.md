@@ -29,6 +29,8 @@ $(document).on('RezOn.RefreshCurrency', function(e, object) {
 | RezOn.Trains.AddedPassenger | После добавления нового пассажира в форму |
 | RezOn.Trains.OrderLoaded | После подгрузки содержимого корзины |
 | RezOn.Trains.PaymentSuccess | Успешная оплата ЖД билета |
+| RezOn.Trains.PaymentFail | Возникла ошибка при оплате ЖД билета |
+
 
 Пример JavaScript кода для передачи данных достижения целей в GA:
 
