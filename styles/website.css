@@ -1,6 +1,5 @@
-.book-summary:before 
+.book-summary .logo
 {
-    content: ' ';
     display: block;
     margin: 15px;
     background: url(https://bo.galileo.com.ua/Content/images/RezOn_Universal_horizont.png) no-repeat;
