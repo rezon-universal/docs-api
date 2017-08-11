@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "-lunr", "-search", "search-pro"],
+    "plugins": [ "theme-api", "-lunr", "-search", "search-pro", "addcssjs"],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
@@ -14,7 +14,8 @@
                 }
 
             ]
-        }
+        },
+        "addcssjs": { "js": ["js/custom.js"]}
     },
     "styles": 
     {
