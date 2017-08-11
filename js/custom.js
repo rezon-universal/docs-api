@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $("<a />").attr("href", "http://rezonuniversal.com").addClass("logo").appendTo($(".book-summary"));
+    $("<a />").attr("href", "http://rezonuniversal.com").addClass("logo").prependTo($(".book-summary"));
 });
