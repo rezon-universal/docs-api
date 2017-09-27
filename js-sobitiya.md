@@ -24,6 +24,7 @@ $(document).on('RezOn.RefreshCurrency', function(e, object) {
 | RezOn.Avia.PaymentFail | Возникла ошибка при оплате авиа-бронирования |
 | RezOn.RefreshCurrencies | Перед вызовом функции перерисовки валют |
 | RezOn.RefreshCurrency | После перерисовки элемента валюты |
+| RezOn.ChangeCurrency | Смена отображаемой валюты на сайте |
 | RezOn.Trains.BeforeSearch | Перед отправкой ЖД формы поиска |
 | RezOn.Trains.AfterSearch | После отправки ЖД формы поиска |
 | RezOn.Trains.AddedPassenger | После добавления нового пассажира в форму |
