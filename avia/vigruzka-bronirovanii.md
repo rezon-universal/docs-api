@@ -34,6 +34,7 @@
          <buyer_name>ALLA</buyer_name>
          <buyer_surname>IGNATENKO</buyer_surname>
          <buyer_phone>380970000583</buyer_phone>
+         <buyer_email>alla.ignatenko@gmail.com</buyer_email>
          <ga_user_id>176013697</ga_user_id>
          <custom_data>
             <item>
@@ -98,6 +99,7 @@
    "Data": [
       {
          "active_segments_count": 1,
+         "buyer_email": "alla.ignatenko@gmail.com",
          "buyer_name": "ALLA",
          "buyer_phone": "380970000583",
          "buyer_surname": "IGNATENKO",
@@ -180,6 +182,7 @@
 | created | Дата и время создания |
 | recloc | Локатор бронирования |
 | pcc | PCC |
+| buyer\_email | Email покупателя|
 | buyer\_name | Имя покупателя |
 | buyer\_surname | Фамилия покупателя |
 | buyer\_phone | Телефон покупателя |
